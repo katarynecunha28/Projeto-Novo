@@ -6,13 +6,13 @@
 
 **The Adventures of Abasat** é um jogo de plataforma 2D desenvolvido na engine **Unity**. O projeto foi concebido e desenvolvido em **2024** como parte dos requisitos práticos da disciplina de **Engenharia de Sistemas A** da **UERJ (Universidade do Estado do Rio de Janeiro)**.
 
-O protagonista e temática do jogo são inteiramente baseados no **Abasat**, o mascote oficial da **UERJ Sats**, a equipe de desenvolvimento e pesquisa de satélites e engenharia aeroespacial da universidade.
+O protagonista e temática do jogo são inteiramente baseados no **Abasat**, o mascote oficial da **UERJ Sats**, a equipe de desenvolvimento e pesquisa de satélites da universidade.
 
 ---
 
 ## 🌌 História e Objetivo do Jogo
 
-Na pele do carismático abacate astronauta Abasat, o jogador é lançado em uma importante missão no espaço sideral. O objetivo principal é navegar por plataformas flutuantes e perigosas para **resgatar os CubeSats** perdidos na órbita cósmica. Após coletar todos os satélites espalhados pelo nível, o jogador deve alcançar e capturar a **medalha final** para consagrar o sucesso da missão e finalizar a jornada.
+O objetivo principal é navegar por plataformas flutuantes e perigosas para **resgatar os CubeSats** perdidos na órbita. Após coletar todos os satélites espalhados pelo nível, o jogador deve alcançar e capturar a **medalha final** para consagrar o sucesso da missão e finalizar a jornada.
 
 ---
 
@@ -20,9 +20,9 @@ Na pele do carismático abacate astronauta Abasat, o jogador é lançado em uma 
 
 O jogo foi projetado focado em um ciclo completo de interação (Game Loop), dividido estritamente em 3 telas principais:
 
-1. **Tela Inicial (`StartScene`):** Apresenta o menu principal com o título do jogo, a arte do Abasat com óculos escuros e botões interativos para iniciar a missão (`Start`) ou fechar a aplicação (`Quit`).
+1. **Tela Inicial (`StartScene`):** Apresenta o menu principal e botões interativos para iniciar a missão (`Start`) ou fechar a aplicação (`Quit`).
 2. **Tela de Game Over:** Ativada caso o Abasat falhe em sua jornada ou caia no espaço profundo. Oferece a escolha para reiniciar a partida de forma rápida (`Restart Game`) ou retornar de vez para a tela inicial (`Return`).
-3. **Tela de Vitória (`Abasat Wins`):** Exibe a celebração do sucesso da missão ao resgatar com êxito os CubeSats e capturar a moeda/medalha final, apresentando o Abasat segurando o troféu de ouro e permitindo reiniciar o jogo ou voltar ao menu inicial.
+3. **Tela de Vitória (`Abasat Wins`):** Exibe a celebração do sucesso da missão e permite reiniciar o jogo ou voltar ao menu inicial.
 
 ---
 
@@ -38,9 +38,3 @@ O jogo foi projetado focado em um ciclo completo de interação (Game Loop), div
   - `Scripts/` - Lógica lógica programada em C# para controle de movimentação, contagem de itens, gerenciamento de estados de UI e transição de cenas.
 
 ---
-
-## 🎮 Como Executar o Projeto
-
-1. Clone este repositório em seu ambiente local:
-   ```bash
-   git clone [https://github.com/seu-usuario/the-adventures-of-asat.git](https://github.com/seu-usuario/the-adventures-of-asat.git)
